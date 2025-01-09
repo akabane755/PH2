@@ -94,7 +94,7 @@
 display: flex;
 
   }
-  .head  .btn1{
+   .btn1{
 color: white;
 background-color: #FD6E0A;
 font: bold;
@@ -177,4 +177,37 @@ justify-content: center;
       .second h5{
         font-size: 20px;
         font:bold;
+      }
+      .mur{
+        display: flex;
+        gap:71px;
+      }
+      .murhead{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+      .mur div{
+        height:175px;
+        width:511px;
+      }
+      .mur div h3{
+        font:bold;
+        font-size:30px;
+      }
+      .mur div h5{
+        font:bold;
+        font-size:25px;
+        margin-bottom: 0px;
+      }
+      .mur div subscript{
+        font:600;
+        font-size:20px;
+        color:rgba(71, 71, 71, 1);
+       
+      }
+      .mur div p{
+        font-size:16px;
+        color: rgba(71, 71, 71, 1);
       }
